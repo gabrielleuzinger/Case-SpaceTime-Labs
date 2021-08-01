@@ -22,6 +22,7 @@ Para acessar o Jupyter Notebook que criei, execute na pasta raiz do projeto `jup
 
 ```{sh}
   .
+  |-data
   |-report
   |  |- markdown
   |  |  |- Case SpaceTime Labs - colheita-2020.md
