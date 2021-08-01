@@ -1,21 +1,24 @@
-This repository contains a **Model to forecast Sunspots** based on the dataset available at the [Machine Learning Mastery website](https://machinelearningmastery.com/time-series-datasets-for-machine-learning/). It's objective was the creation of a model to predict shampoo sales. This project was set up following the premises of [Reproducible Research](https://pt.coursera.org/learn/reproducible-research), so that anyone can achieve the same results as me using the steps I followed in Jupyter Notebook.
+Este repositório contém a solução do case do processo seletivo para Cientista de Dados na SpaceTime Labs. O objetivo deste projeto desenvolver um modelo capaz de prever o TCH dos blocos do dataset para a safra de 2020 usando os dados disponibilizados.
 
-# Project libraries
+Este projeto foi montado seguindo as premissas de [Pesquisas Reprodutíveis](https://pt.coursera.org/learn/reproducible-research), de modo que qualquer pessoa consiga chegar aos mesmos resultados que eu utilizando os passos que segui no Jupyter Notebook.
 
+# Dependências do projeto
 
-All dependencies can be found in the file  `requirements.txt`, but are also listed below:
-* Numpy
-* Scikit-Learn
-* Pandas
+Todas as dependências podem ser encontradas no arquivo `requirements.txt`, mas abaixo estão listadas:
+* pandas
+* numpy
+* matplolib
+* seaborn
+* scikit-learn
 * Jupyter Notebook
-* Matplotlib
-* statsmodels
 
-To install the dependencies run in the project's main folder : `pip install -r requirements.txt`. 
+Para instalar as dependências execute na pasta raiz do projeto: `pip install -r requirements.txt`. 
 
-To access the Jupyter Notebook that I created, run in the root folder of the `jupyter notebook` project. Soon after, your browser will open and just select the file `Sunspots.ipynb`.  
+Para acessar o Jupyter Notebook que criei, execute na pasta raiz do projeto `jupyter notebook`. Logo em seguida seu browser será aberto e basta selecionar o arquivo `Case SpaceTime Labs - colheita-2020.ipynb`. 
 
-# Project structure
+É importante frisar que os dados utilizados para este desafio não foram adicionados a este projeto. 
+
+# Estrutura do projeto
 
 ```{sh}
   .
@@ -26,6 +29,4 @@ To access the Jupyter Notebook that I created, run in the root folder of the `ju
   |- requirements.txt
 ```
 
-The folder `report` contains a md file with a version of the report generated from the study done on that project. This file contains **all the insights and studies that were done, as well as a detailed description of how the project was developed**.
-
-**All references used to create this project are described in the report**. 
+A pasta `report` contém um arquivo markdown com uma versão do relatório gerado a partir do estudo feito nesse projeto. Esse arquivo contém **todos os insights e estudos feitos, bem como uma descrição detalhada de como foi elaborado o projeto**.
